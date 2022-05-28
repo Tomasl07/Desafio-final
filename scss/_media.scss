@@ -1,0 +1,20 @@
+@media screen and (min-width: 769px){
+    .maindiv{
+        /* Estilos de grilla */
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  1fr;
+        grid-template-areas:
+        "nav nav nav" 
+        "header header header"
+        "main main main"
+        "footer footer footer"
+        ;
+    }
+.tarjetas-main{
+    flex-direction: row;}
+      
+      
+ .lista2{
+    margin-right: 35px;
+    font-size: 30px; }
+}

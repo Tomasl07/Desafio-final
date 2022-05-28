@@ -1,3 +1,20 @@
+.maindiv {
+  /* Estilos de grilla  */
+  display: grid;
+  grid-template-areas: "nav" "header" "main" "footer"; }
+
+nav {
+  grid-area: nav; }
+
+header {
+  grid-area: header; }
+
+main {
+  grid-area: main; }
+
+footer {
+  grid-area: footer; }
+
 .divgen {
   display: flex;
   justify-content: center; }
@@ -60,3 +77,15 @@ footer {
   margin-right: 30px; }
   .lista2 li {
     padding: 10px; }
+
+@media screen and (min-width: 769px) {
+  .maindiv {
+    /* Estilos de grilla */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "nav nav nav"  "header header header" "main main main" "footer footer footer"; }
+  .tarjetas-main {
+    flex-direction: row; }
+  .lista2 {
+    margin-right: 35px;
+    font-size: 30px; } }

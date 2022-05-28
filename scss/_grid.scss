@@ -1,0 +1,22 @@
+.maindiv{
+    /* Estilos de grilla  */
+   display: grid;
+   grid-template-areas: 
+   "nav"
+   "header"
+   "main"
+   "footer"
+   ;
+  } 
+  nav{
+   grid-area: nav;
+  }
+  header{
+   grid-area: header;
+  }
+  main{
+   grid-area: main;
+  }
+  footer{
+   grid-area: footer;
+  }
