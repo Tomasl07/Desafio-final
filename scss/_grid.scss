@@ -4,6 +4,7 @@
    grid-template-areas: 
    "nav"
    "header"
+   "cartas"
    "main"
    "footer"
    ;
@@ -13,6 +14,9 @@
   }
   header{
    grid-area: header;
+  }
+  .cartas{
+      grid-area: cartas;
   }
   main{
    grid-area: main;

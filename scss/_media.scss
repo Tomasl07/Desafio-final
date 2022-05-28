@@ -6,9 +6,15 @@
         grid-template-areas:
         "nav nav nav" 
         "header header header"
+        "cartas cartas cartas"
         "main main main"
         "footer footer footer"
         ;
+    }
+    .conf{
+        img{
+            flex-direction: column;
+        }
     }
 .tarjetas-main{
     justify-content: space-between; 

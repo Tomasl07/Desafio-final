@@ -1,13 +1,16 @@
 .maindiv {
   /* Estilos de grilla  */
   display: grid;
-  grid-template-areas: "nav" "header" "main" "footer"; }
+  grid-template-areas: "nav" "header" "cartas" "main" "footer"; }
 
 nav {
   grid-area: nav; }
 
 header {
   grid-area: header; }
+
+.cartas {
+  grid-area: cartas; }
 
 main {
   grid-area: main; }
@@ -95,7 +98,9 @@ footer {
     /* Estilos de grilla */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "nav nav nav"  "header header header" "main main main" "footer footer footer"; }
+    grid-template-areas: "nav nav nav"  "header header header" "cartas cartas cartas" "main main main" "footer footer footer"; }
+  .conf img {
+    flex-direction: column; }
   .tarjetas-main {
     justify-content: space-between;
     flex-direction: row; }
