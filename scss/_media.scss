@@ -30,3 +30,19 @@
     margin-right: 35px;
     font-size: 30px; }
 }
+@media screen and (max-width: 425px){
+    .maindiv{
+        /* Estilos de grilla  */
+       display: grid;
+       grid-template-areas: 
+       "nav"
+       "header"
+       "cartas"
+       "main"
+       "footer"
+       ;
+      } 
+      .tarjetas-main{
+        padding-left: 6rem;;}
+    
+}
