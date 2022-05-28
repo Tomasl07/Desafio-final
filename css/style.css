@@ -1,3 +1,14 @@
+.divgen {
+  display: flex;
+  justify-content: center; }
+
+.conf img {
+  display: flex;
+  flex-direction: column; }
+
+.logoimg {
+  border-radius: 50px 50px 50px 50px; }
+
 .tarjetas-main {
   display: grid;
   justify-items: center;
