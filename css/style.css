@@ -33,8 +33,13 @@ footer {
   border-radius: 50px 50px 50px 50px; }
 
 .tarjetas-main {
+  margin: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly; }
+
+.tarjetas-main {
+  display: grid;
   justify-items: center;
   text-align: center; }
 
@@ -52,6 +57,9 @@ footer {
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75); }
+
+.container {
+  width: 33rem; }
 
 footer {
   background-color: #000000; }
@@ -104,6 +112,8 @@ footer {
   .tarjetas-main {
     justify-content: space-between;
     flex-direction: row; }
+  .container {
+    width: auto; }
   .lista2 {
     margin-right: 35px;
     font-size: 30px; } }
