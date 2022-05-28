@@ -1,11 +1,7 @@
 .maindiv {
   /* Estilos de grilla  */
   display: grid;
-  grid-template-areas: "nav"
- "header"
- "cartas"
- "main"
- "footer"; }
+  grid-template-areas: "nav" "header" "cartas" "main" "footer"; }
 
 nav {
   grid-area: nav; }
@@ -35,6 +31,9 @@ footer {
 
 .logoimg {
   border-radius: 50px 50px 50px 50px; }
+
+.cartas {
+  background-color: #dfdbd9; }
 
 .tarjetas-main {
   padding-left: 15rem;
@@ -111,11 +110,7 @@ footer {
     /* Estilos de grilla */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "nav nav nav" 
- "header header header"
- "cartas cartas cartas"
- "main main main"
- "footer footer footer"; }
+    grid-template-areas: "nav nav nav"  "header header header" "cartas cartas cartas" "main main main" "footer footer footer"; }
   .conf img {
     flex-direction: column; }
   .tarjetas-main {
@@ -132,10 +127,6 @@ footer {
   .maindiv {
     /* Estilos de grilla  */
     display: grid;
-    grid-template-areas: "nav"
- "header"
- "cartas"
- "main"
- "footer"; }
-   .tarjetas-main { 
-     padding-left: 6rem; } } 
+    grid-template-areas: "nav" "header" "cartas" "main" "footer"; }
+  .tarjetas-main {
+    padding-left: 6rem; } }
