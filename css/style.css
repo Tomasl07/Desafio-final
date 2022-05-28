@@ -1,0 +1,48 @@
+.tarjetas-main {
+  display: grid;
+  justify-items: center;
+  text-align: center; }
+
+.cartamain {
+  border-radius: 50px;
+  transition: transform .2s, box-shadow .2s;
+  margin-top: 1rem; }
+
+.cartamain img {
+  border-radius: 50px 50px 0 0; }
+
+.cartamain:hover {
+  border: none;
+  transform: translate(0, -20px);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75); }
+
+footer {
+  background-color: #000000; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .footer ul {
+    list-style-type: none; }
+  .footer li a {
+    text-decoration: none; }
+
+.lista1 a {
+  font-size: 20px;
+  border: solid white 1px;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  background-color: #fffefe; }
+
+.lista1 h3 {
+  color: white; }
+
+.lista2 {
+  font-size: 22px;
+  margin-right: 30px; }
+  .lista2 li {
+    padding: 10px; }
