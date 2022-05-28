@@ -33,6 +33,7 @@ footer {
   border-radius: 50px 50px 50px 50px; }
 
 .tarjetas-main {
+  padding-left: 15rem;
   margin: 1rem;
   display: flex;
   flex-direction: column;
@@ -110,6 +111,7 @@ footer {
   .conf img {
     flex-direction: column; }
   .tarjetas-main {
+    padding-left: 0px;
     justify-content: space-between;
     flex-direction: row; }
   .container {
