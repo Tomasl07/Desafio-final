@@ -96,6 +96,33 @@ footer {
     .lista2 li a {
       font-size: 22px; }
 
+/* --------------------------------------------------------- */
+.maintransp {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  background-color: #dfdbd9;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.tituloint, .cuadro2 {
+  border: solid black 1px;
+  margin: 5px;
+  padding: 5px;
+  background-color: #dfa457; }
+
+.btncotizar {
+  font-size: 15px;
+  border: solid black 2px;
+  background-color: black;
+  cursor: pointer; }
+  .btncotizar a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center; }
+
 .red-facebook {
   color: #0000ff; }
 
