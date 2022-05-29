@@ -125,15 +125,10 @@ footer {
 
 /* --------------------------------------------------------- */
 .inicio {
-  background-color: #dfdbd9;
-  height: 40em; }
+  padding-top: 100px; }
 
-.registrarse {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: black;
-  padding-top: 70px; }
+.mainreg {
+  height: auto; }
 
 .red-facebook {
   color: #0000ff; }
@@ -162,6 +157,9 @@ footer {
   .lista2 {
     margin-right: 35px;
     font-size: 30px; } }
+
+.mainreg {
+  height: 42rem; }
 
 @media screen and (max-width: 425px) {
   .maindiv {
