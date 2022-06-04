@@ -50,5 +50,15 @@
       } 
       .tarjetas-main{
         padding-left: 6rem;;}
+
+        .header {
+            text-align: center;
+        }
+        .container .contenido {
+            grid-column: 1 / -1;
+        }
+        .container .sidebar {
+            grid-column: 1 / 6;
+        }
     
 }
