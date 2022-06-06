@@ -133,6 +133,9 @@ footer {
 .mainreg {
   height: auto; }
 
+.descrip {
+  background-color: #1e272e; }
+
 * {
   margin: 0;
   padding: 0; }
